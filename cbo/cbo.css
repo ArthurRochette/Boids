@@ -10,3 +10,13 @@
 .param{
 
 }
+
+
+#debug {
+    position: absolute;
+    left: 1em;
+    top: 1em;
+    padding: 1em;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    fo
