@@ -8,8 +8,31 @@
     </style>
 </head>
 <body>
-<div id="debug">
+<div id="trigger">
+    <div id="param">
+        <label>Boid Number</label><br>
+        <input type="number" class="number" id="BOIDS_NUMBER" value="500"><br>
+        <label>Boid's Vision Distance</label><br>
+        <input type="range" min="0" max="50" value="10" class="slider" id="BOIDS_VISION"><br>
+        <label>Boid's Speed</label><br>
+        <input type="range" min="0" max="2" value="0.2" class="slider" id="BOIDS_SPEED" step="0.05"><br>
+        <label>Boid's Separation Distance</label><br>
+        <input type="range" min="0" max="50" value="5" class="slider" id="SEPARATION_DISTANCE" step="1"><br>
+
+
+        <label>Alignement Force</label><br>
+        <input type="range" min="0" max="20" value="1" class="slider" id="ALIGN_FORCE"><br>
+        <label>Cohesion Force</label><br>
+        <input type="range" min="0" max="20" value="1" class="slider" id="COHESION_FORCE"><br>
+        <label>Separation Force</label><br>
+        <input type="range" min="0" max="20" value="5" class="slider" id="SEPARATION_FORCE"><br>
+        <label>Center Attraction</label><br>
+        <input type="range" min="0" max="1" value="0.1" class="slider" id="CENTER_ATTRACTION" step="0.05"><br>
+
+        <h8 id="HIDE">click to hide\display</h8>
+    </div>
 </div>
+
 
 
 <script src="js/boids.js" type="module"></script>
