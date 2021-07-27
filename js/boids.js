@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
 //VAR PARAMETERS
     let width = 200;
     let height = 200;
-    let depth = 500;//todo perspective camera area lookin
+    let depth = 500;
 
     let BOIDS_NUMBER = 500;
     let VISION = 10;
@@ -21,8 +21,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
     let SEPARATION_FORCE = 1;
     let CENTER_ATTRACTION = 0.1;
     let SPEED = 0.2;
-
-//todo make a var to limit movement in a direction (like gravity)
 
 //link btw js and html
     let triggered = false;
